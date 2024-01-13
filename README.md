@@ -20,5 +20,5 @@ Explore the live demo [here](https://product-landing-page-99.netlify.app/) to se
 Contributions aimed at enhancing the project's responsiveness, improving design elements, or adding features are welcomed. Fork this repository, make necessary changes, and submit a pull request for review.
 
 ## Acknowledgments
-This project was completed as part of the FreeCodeCamp.org Responsive Web Design course, emphasizing responsive landing page design and CSS flexbox techniques.
+This project was completed as part of the FreeCodeCamp.org curriculum on responsive web design. Grateful for the support and resources provided by the FreeCodeCamp community.
 
