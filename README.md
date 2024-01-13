@@ -22,4 +22,3 @@ Contributions aimed at enhancing the project's responsiveness, improving design 
 ## Acknowledgments
 This project was completed as part of the FreeCodeCamp.org Responsive Web Design course, emphasizing responsive landing page design and CSS flexbox techniques.
 
-Follow this format, replace placeholders like `link_to_image` and `link_to_live_demo` with actual links, and modify as needed.
