@@ -1,0 +1,233 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  background-color: #eeeeee;
+}
+
+.main-doc {
+  padding-top: 110px;
+}
+
+.logo {
+  font-family: "Instrument Serif", serif;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  gap: 0.2em;
+}
+
+img {
+  max-width: 100%;
+}
+
+#header-img {
+  width: 2.2rem;
+  height: 2.2rem;
+}
+
+.brand-name {
+  margin: 0.5em 0 0.2em;
+}
+
+#header {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #eeeeee;
+  position: fixed;
+  top: 0;
+  padding-bottom: 0.5em;
+  width: 100%;
+}
+
+#nav-bar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#nav-bar ul li a {
+  color: #000;
+  text-decoration: none;
+}
+
+.main-heading {
+  text-align: center;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+}
+
+#email {
+  width: 290px;
+  padding: 0.3em 0.5em;
+}
+
+#submit,
+.card-select {
+  background-color: #f1c40f;
+  border: none;
+  font-size: 1rem;
+}
+
+#submit {
+  transform: all 5s ease-in-out 0.5s;
+  font-weight: bold;
+  padding: 0.3em 1.5em;
+  max-width: 10em;
+}
+
+#submit:hover,
+.card-select:hover {
+  background-color: #f9b307;
+}
+
+#Features {
+  text-align: center;
+}
+
+.feature-icon {
+  display: none;
+}
+
+#Lessons {
+  margin: 3em 0;
+  display: flex;
+  justify-content: center;
+}
+
+#Pricing {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+  margin-bottom: 2em;
+}
+
+.card {
+  border: 1px solid #000;
+  border-radius: 2px;
+  width: 300px;
+}
+
+.card-heading {
+  text-transform: uppercase;
+  background-color: #dddddd;
+  margin: 0;
+  line-height: 3em;
+}
+
+.card-select {
+  padding: 0.5em 1.3em;
+  margin: 1em 0.5em;
+  cursor: pointer;
+}
+
+#footer {
+  background-color: #dddddd;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.5em;
+  padding: 1.5em;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+#footer ul {
+  list-style: none;
+  display: flex;
+  gap: 0.8em;
+  margin: 0;
+}
+
+#footer a {
+  text-decoration: none;
+  color: #000;
+}
+
+.copyright {
+  color: rgba(0, 0, 0, 0.6);
+  margin: 0;
+}
+
+/* Responsiveness  */
+@media only screen and (min-width: 550px) {
+  #Features {
+    text-align: left;
+    max-width: 1000px;
+    margin: 3em auto;
+  }
+
+  .feature {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2.5em;
+  }
+
+  .feature-icon {
+    width: 60px;
+    height: 60px;
+    display: block;
+  }
+
+  /* Fixing PNG unusual size bug  */
+  .feature:nth-child(1) .feature-icon {
+    margin-left: 0.5em;
+    margin-right: -0.5em;
+  }
+
+  .feature-texts {
+    margin-left: 8%;
+  }
+}
+
+@media only screen and (min-width: 550px) {
+  .main-doc {
+    padding-top: 80px;
+  }
+
+  #header {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.5em 5%;
+  }
+
+  .brand-name {
+    margin: 0;
+  }
+
+  #nav-bar {
+    width: 40%;
+    max-width: 500px;
+  }
+
+  #nav-bar ul {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  #Pricing {
+    flex-direction: row;
+    gap: 1em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+  }
+}

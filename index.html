@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A responsive product landing page" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Product Landing Page</title>
+  </head>
+  <body>
+    <main class="main-doc">
+      <header id="header">
+        <div class="logo">
+          <img
+            id="header-img"
+            src="https://github.com/Salf1-Sabit/Magazine/assets/70028517/7b2eb822-1972-40ab-b221-3cd506075313"
+            alt=""
+          />
+          <h3 class="brand-name">Original Guitars</h3>
+        </div>
+        <nav id="nav-bar">
+          <ul>
+            <li><a class="nav-link" href="#Features">Features</a></li>
+            <li><a class="nav-link" href="#Lessons">Lessons</a></li>
+            <li><a class="nav-link" href="#Pricing">Pricing</a></li>
+          </ul>
+        </nav>
+      </header>
+      <h2 class="main-heading">Handcrafted, home-made masterpieces</h2>
+      <form
+        id="form"
+        method="POST"
+        action="https://www.freecodecamp.com/email-submit"
+      >
+        <input
+          id="email"
+          type="email"
+          name="email"
+          placeholder="Enter your email address"
+          required
+        />
+        <input id="submit" type="submit" value="GET STARTED" />
+      </form>
+      <section id="Features">
+        <div class="feature">
+          <img
+            class="feature-icon"
+            src="https://github.com/Salf1-Sabit/Technical-Documentation-Page/assets/70028517/7f2956fc-1457-46f8-af5a-8dad20d38c16"
+            alt="Fire icon"
+          />
+          <div class="feature-texts">
+            <h2 class="feature-heading">Premium Materials</h2>
+            <p class="feature-description">
+              Our guitars are crafted with the finest tonewoods, sourced from
+              sustainable forests. The carefully selected wood not only enhances
+              the instrument's resonance but also contributes to its overall
+              durability, ensuring a long-lasting and exceptional musical
+              experience.
+            </p>
+          </div>
+        </div>
+        <div class="feature">
+          <img
+            class="feature-icon"
+            src="https://github.com/Salf1-Sabit/Technical-Documentation-Page/assets/70028517/0c8d6414-2319-4f67-8cbb-35e873f38712"
+            alt="Shipping truck icon"
+          />
+          <div class="feature-texts">
+            <h2 class="feature-heading">Fast Shipping</h2>
+            <p class="feature-description">
+              We prioritize a swift delivery for your guitar, ensuring it
+              reaches your doorstep as soon as it's expertly crafted. Our
+              commitment to customer satisfaction includes hassle-free returns,
+              providing you peace of mind and convenience if, for any reason,
+              you're not completely satisfied with your purchase.
+            </p>
+          </div>
+        </div>
+        <div class="feature">
+          <img
+            class="feature-icon"
+            src="https://github.com/Salf1-Sabit/Technical-Documentation-Page/assets/70028517/3167fc6a-29f2-45b6-85f4-e889cb4df228"
+            alt="Guarantee icon"
+          />
+          <div class="feature-texts">
+            <h2 class="feature-heading">Quality Assurance</h2>
+            <p class="feature-description">
+              For every purchase you make, we will ensure there are no damages
+              or faults and we will check and test the pitch of your instrument.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="Lessons">
+        <iframe
+          id="video"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/BBz-Jyr23M4?si=Zzwn7nmmaihVoMPO"
+          title="Beginner guitar lessons"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </section>
+      <section id="Pricing">
+        <div class="card">
+          <h4 class="card-heading">Classical Guitar</h4>
+          <h2 class="card-price">$600</h2>
+          <div class="card-description">
+            <p>Lorem ipsum.</p>
+            <p>Lorem ipsum.</p>
+            <p>Lorem ipsum dolor.</p>
+            <p>Lorem ipsum.</p>
+          </div>
+          <button class="card-select">SELECT</button>
+        </div>
+        <div class="card">
+          <h4 class="card-heading">Acoustic Guitar</h4>
+          <h2 class="card-price">$900</h2>
+          <div class="card-description">
+            <p>Lorem ipsum.</p>
+            <p>Lorem ipsum.</p>
+            <p>Lorem ipsum dolor.</p>
+            <p>Lorem ipsum.</p>
+          </div>
+          <button class="card-select">SELECT</button>
+        </div>
+        <div class="card">
+          <h4 class="card-heading">Electric Guitar</h4>
+          <h2 class="card-price">$1200</h2>
+          <div class="card-description">
+            <p>Lorem ipsum.</p>
+            <p>Lorem ipsum.</p>
+            <p>Lorem ipsum dolor.</p>
+            <p>Lorem ipsum.</p>
+          </div>
+          <button class="card-select">SELECT</button>
+        </div>
+      </section>
+      <footer id="footer">
+        <div class="footer-texts">
+          <ul class="footer-lists">
+            <li><a id="footer-links" href="#">Privacy</a></li>
+            <li><a id="footer-links" href="#">Terms</a></li>
+            <li><a id="footer-links" href="#">Contact</a></li>
+          </ul>
+        </div>
+        <p class="copyright">Copyright 2024, Original Guitars</p>
+      </footer>
+    </main>
+  </body>
+</html>
