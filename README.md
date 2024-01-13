@@ -11,7 +11,7 @@ This project, completed as part of the FreeCodeCamp.org Responsive Web Design co
 
 ## Technologies Used
 - HTML5
-- CSS3 (including Flexbox)
+- CSS3
 
 ## Usage
 Explore the live demo [here](https://product-landing-page-99.netlify.app/) to see the implementation of responsive landing page design using CSS flexbox.
